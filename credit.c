@@ -93,7 +93,7 @@ int main(void)
 
     }
 
-    //First validation for VISA
+    //First Validation for VISA
     if (countDigits == 13)
     {
         printf("VISA\n");
@@ -102,7 +102,7 @@ int main(void)
     //Validation for CC numbers of 16 digits
     if (countDigits == 16)
     {
-        //Second validation for VISA
+        //Second Validation for VISA
         if ((digit8 / 2) == 4)
         {
             printf("VISA\n");
